@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "SEGA LOGO FONT";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SEGA LOGO FONT"), url("SEGA.woff") format("woff");
+}
+h1 {
+  font-family: "SEGA LOGO FONT";
+  font-weight: 200;
+  color: #0ccac4;
+}
+.ButtonLink {
+  color: #0ccac4;
+  margin-right: 7px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.ButtonLink:hover,
+.ButtonLink:focus {
+  text-decoration: underline;
+}
